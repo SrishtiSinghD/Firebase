@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
+                Intent intentread=new Intent(MainActivity.this,read.class);
+                startActivity(intentread);
 
             }
         });
